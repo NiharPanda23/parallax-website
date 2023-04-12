@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: whitesmoke;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.logo{
+    font-family: 'Sacramento', cursive;
+    font-size: 2.3em;
+    color:  #359381;
+    pointer-events: none;
+    margin-right: 270px;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin:0px 10px;
+    font-weight: 600;
+}
+.navigation a:hover{
+    background: #359381;
+    color: whitesmoke;
+}
+.parallax{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.parallax img{
+    position: absolute;
+    top:0%;
+    left:0;
+    width: 100%;
+    pointer-events: none;
+}
+.sec{
+    margin-top: 150px;
+    padding: 100px;
+    position: relative;
+    background: #003329;
+
+}
+.sec h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.sec p{
+    font-size: 1em;
+    color: rgb(175, 175, 175);
+    font-weight: 300;
+}
